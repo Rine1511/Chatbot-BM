@@ -1,0 +1,6 @@
+{
+  "name": "Asisten Virtual Bahrul Maghfiroh",
+  "description": "Aplikasi chatbot AI berbasis RAG dan Dashboard Admin untuk Pondok Pesantren Bahrul Maghfiroh Kota Malang.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

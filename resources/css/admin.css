@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@source "../views/**/*.blade.php";
+
+@theme {
+    --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+    --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+    --color-bm-green-950: #07291b;
+    --color-bm-green-900: #0b3b27;
+    --color-bm-green-800: #0e4b32;
+    --color-bm-green-700: #146342;
+    --color-bm-green-100: #e7f1ec;
+    --color-bm-green-50: #f3f8f5;
+    --color-bm-gold-600: #a67c16;
+    --color-bm-gold-500: #c49a2a;
+    --color-bm-gold-400: #d4af37;
+    --color-bm-gold-100: #f9f3e0;
+}
+
+@layer base {
+    body {
+        font-family: var(--font-sans);
+        color: #111827;
+        background-color: #f7f9f8;
+        -webkit-font-smoothing: antialiased;
+    }
+}
